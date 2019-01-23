@@ -38,5 +38,14 @@ public class HelloWorld {
         double pi = Math.PI;
         System.out.println("PI = " + pi);
 
+        char myChar = '\u00A9';
+        System.out.println("Unicode output: " + myChar);
+
+        boolean myBoolean = false;
+        System.out.println(myBoolean);
+
+        char registered = '\u00AE';
+        System.out.println(registered);
+
     } // End of main()
 } // End of HelloWorld Class
