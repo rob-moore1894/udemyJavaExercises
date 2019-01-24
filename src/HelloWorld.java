@@ -47,5 +47,16 @@ public class HelloWorld {
         char registered = '\u00AE';
         System.out.println(registered);
 
+        System.out.println("Operators and Operator Precedence");
+        double firstValue = 20;
+        double secondValue = 80;
+        double total = (firstValue + secondValue) * 25;
+        System.out.println(total);
+        double remainder = total % 40;
+        System.out.println(remainder);
+        if (remainder <= 20) {
+            System.out.println("Total was over the limit");
+        }
+
     } // End of main()
 } // End of HelloWorld Class
