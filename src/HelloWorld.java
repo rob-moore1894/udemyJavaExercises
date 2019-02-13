@@ -58,30 +58,6 @@ public class HelloWorld {
             System.out.println("Total was over the limit");
         }
 
-        // If Keyword and Code Blocks Challenge
-        System.out.println();
-        System.out.println("***** If Keyword and Code Blocks Lecture *****");
-        boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
-
-        if (gameOver) {
-            int finalScore = score + (levelCompleted * bonus);
-            System.out.println("Final Score = " + finalScore);
-        }
-
-        System.out.println();
-        System.out.println("***** If Keyword and Code Blocks Challenge *****");
-        boolean newGameOver = true;
-        int newScore = 10000;
-        int newLevelCompleted = 8;
-        int newBonus = 200;
-
-        if (newGameOver){
-            int newFinalScore = newScore + (newLevelCompleted * newBonus);
-            System.out.println("New Final Score = " + newFinalScore);
-        }
-
     } // End of main()
+
 } // End of HelloWorld Class
