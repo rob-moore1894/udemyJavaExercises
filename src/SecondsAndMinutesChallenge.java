@@ -7,7 +7,10 @@ public class SecondsAndMinutesChallenge {
                 int totalMinutes = (totalSeconds/60);
                 int remainMinutes = totalMinutes%60;
                 int remainSeconds = totalSeconds%60;
-                System.out.println(totalHours+"h "+remainMinutes+"m "+remainSeconds+"s");
+                String paddedHours = String.format("%02d", totalHours);
+                String paddedMinutes = String.format("%02d", remainMinutes);
+                String paddedSeconds = String.format("%02d", remainSeconds);
+                System.out.println(paddedHours+"h "+paddedMinutes+"m "+paddedSeconds+"s");
 
             } else {
                 System.out.println("Invalid value");
